@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+h1 {
+    color: yellow;
+    background-color: black;
+    /* Adicionar mais estilos conforme necessário */
+}
+p {
+    color: red;
+    background-color: black;
+    /* Adicionar mais estilos conforme necessário */
+}
+button {
+    background-color: cyan;
+    color: white;
+    border: none;
+    /* Adicionar mais estilos conforme necessário */
+}
+/*img {*/
+    /* Adicionar estilos para formatar a imagem */
+/*}*/
+/* Adicionar mais estilos conforme necessário */

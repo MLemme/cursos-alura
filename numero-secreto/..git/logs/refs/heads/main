@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 decc615a188e09735ec5157dda8274793dc82b58 MLemme <mauricio.lemme@gmail.com> 1724080909 -0300	commit (initial): first commit
+decc615a188e09735ec5157dda8274793dc82b58 decc615a188e09735ec5157dda8274793dc82b58 MLemme <mauricio.lemme@gmail.com> 1724080961 -0300	Branch: renamed refs/heads/main to refs/heads/main
+decc615a188e09735ec5157dda8274793dc82b58 2a88068fce0d3e931cf1ea821d180927fa0819cf MLemme <mauricio.lemme@gmail.com> 1724084123 -0300	commit: Alterado limite para 100
+2a88068fce0d3e931cf1ea821d180927fa0819cf 6dcd89de9595337069ef7de0d7ff7acd15905732 Mauricio Lemme <mauricio.lemme@gmail.com> 1724084338 -0300	commit: Alterado limite para 100 - Outra parte
+6dcd89de9595337069ef7de0d7ff7acd15905732 810c9facf818e3c482efe90695096dc7ae97cc98 Mauricio Lemme <mauricio.lemme@gmail.com> 1724086822 -0300	commit: Alterando limite para 50
+810c9facf818e3c482efe90695096dc7ae97cc98 d9f924046bf11d1f9c0e9bc5c62521be28f97a16 Mauricio Lemme <mauricio.lemme@gmail.com> 1724092124 -0300	revert: Revert "Alterado limite para 100 - Outra parte"
+d9f924046bf11d1f9c0e9bc5c62521be28f97a16 2f5a7d8e8182f83fdd5bec9ef30310f81950d09a Mauricio Lemme <mauricio.lemme@gmail.com> 1724092430 -0300	commit: Remove Tiítulo
+2f5a7d8e8182f83fdd5bec9ef30310f81950d09a d9f924046bf11d1f9c0e9bc5c62521be28f97a16 Mauricio Lemme <mauricio.lemme@gmail.com> 1724092593 -0300	reset: moving to d9f924046bf11d1f9c0e9bc5c62521be28f97a16
+d9f924046bf11d1f9c0e9bc5c62521be28f97a16 ad29e02bb37e8e1414d1a587508803923b40ebbf Mauricio Lemme <mauricio.lemme@gmail.com> 1724157337 -0300	commit: Mudanças no título e GIT Ignore
+ad29e02bb37e8e1414d1a587508803923b40ebbf b860d5a033428db260f6c30981fb2bbfdd98cf1f Mauricio Lemme <mauricio.lemme@gmail.com> 1724157346 -0300	pull --tags ssh-origin main: Merge made by the 'ort' strategy.
+b860d5a033428db260f6c30981fb2bbfdd98cf1f 3eb1744e95c9327a0e80a6b9574b3ee75db033f5 Mauricio Lemme <mauricio.lemme@gmail.com> 1724159006 -0300	commit: Inclusão do log de comits como desnecessário para o repositório
