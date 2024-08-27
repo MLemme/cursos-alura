@@ -4,13 +4,17 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"> <!-- Compatibilidade EDGE antigo-->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE-edge"> --> <!-- Compatibilidade EDGE antigo--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Ajusta a escala para o dispositivo -->
     <title>Portifólio</title>
 </head>
 <body>
-    <header> <!-- Cabeçalho -->
-
+    <header class="cabecalho"> <!-- Cabeçalho -->
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="curriculum.html" class="cabecalho__menu__link">Currículo</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -33,7 +37,7 @@
                 </a>
             </div>
         </section>        
-        <img src="./assets/Imagem.png" alt="Foto do Mauricio Lemme">
+        <img src="./assets/Imagem.png" alt="Foto do Mauricio Lemme" class="foto">
     </main>
     <footer class="rodape">
         <p>Desenvolvido pela EMSSAN</p>
