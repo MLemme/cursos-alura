@@ -123,10 +123,11 @@ body{
 @media (max-width: 1200px){ /*diz quais classes utilizar quando a tela for menor que o valor indicado na condição - () é para condição*/
     .cabecalho{
         padding: 6%;
-        gap: 20px;
+        
     }
     .cabecalho__menu{
         justify-content: center;
+        gap: 20px;
     }
     .apresentacao{
         flex-direction: column-reverse;
