@@ -26,6 +26,8 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 /*Faz com quem use esta classe ocupe a tela inteira*/
 .container{
@@ -41,19 +43,58 @@ body{
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin-bottom: 1em;
 }
-/*classe do segundo botão*/
+/*Classe do segundo botão*/
 .botao__secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
-/*ajuste do aviso no parágrafo*/
+/*Ajuste do aviso no parágrafo*/
 .container__aviso {
     font-size: 0.75rem;/*12px*/
     color: var(--cinza-secundario);
 }
-/* Ajuste do título principal */
-container__titulo{
+/*Ajuste do título principal*/
+.container__titulo{
     font-size: 1.75rem;/*28px*/
     font-weight: 700;
+}
+/*Ajuste das distâncias entorno da imagem*/
+.container__imagem{
+    margin: 1em 0 2em 0;/*top right bot left*/
+}
+/*Ajusta as margens de todos elementos da div*/
+.container__caixa {
+    margin: 0 6em;
+}
+/*Inicio da segunda sessão*/
+/*Divisão da segunda sessão*/
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+/*Ajuste da imagem*/
+.secundario__imagem {
+    width: 80%;
+}
+/*Ajuste do texto de título*/
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+/*Ajuste do conteudo do paragrafo/texto de conteudo*/
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+/*Para descirção na terceira sessão*/
+.container__descricao {
+    padding: 2em;
+}
+/*Para o botão na terceira sessão*/
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
 }
