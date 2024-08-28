@@ -1,0 +1,26 @@
+/* Declaração de valores globais */
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;   
+}
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Personalização do corpo */
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+/*Classe da sessão principal dentro do main */
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+}
