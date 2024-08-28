@@ -108,7 +108,7 @@ body{
     font-weight: 100;
 }
 .foto{
-    /*align-self: flex-start;*/
+    align-self: flex-start;
     width: 50%;
 }
 .rodape{
@@ -129,11 +129,17 @@ body{
         justify-content: center;
         gap: 20px;
     }
+    .cabecalho__menu__link {
+        font-size: 1.4rem; /* 16px */
+    }
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5% 5%;
     }
     .apresentacao__conteudo{
         width: auto;
+    }
+    .foto{
+        align-self: center;
     }
 }    
