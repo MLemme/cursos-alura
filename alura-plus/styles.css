@@ -1,26 +1,59 @@
-/* Declaração de valores globais */
+/*Declaração de valores globais*/
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;   
+    --cor-de-fundo: #00030c; 
+    
+    --fonte-principal: 'Inter';
 }
-/* Reset */
+/*Reset*/
 *{
     margin: 0;
     padding: 0;
 }
-/* Personalização do corpo */
+/*Personalização do corpo*/
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+
+    font-family: var(--fonte-principal);
+    font-size: 1rem; /*16px*/
+    font-weight: 400;
 }
-/*Classe da sessão principal dentro do main */
+/*Classe da sessão principal dentro do main*/
 .principal{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
+/*Faz com quem use esta classe ocupe a tela inteira*/
 .container{
     height: 100vh;
+    display: grid; /*cria separação direta para os elementos*/
+    grid-template-columns: 50% 50%; /*transforma o grid para distribuir por colunas*/   
+}
+/*classe para o botão de link*/
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+}
+/*classe do segundo botão*/
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+/*ajuste do aviso no parágrafo*/
+.container__aviso {
+    font-size: 0.75rem;/*12px*/
+    color: var(--cinza-secundario);
+}
+/* Ajuste do título principal */
+container__titulo{
+    font-size: 1.75rem;/*28px*/
+    font-weight: 700;
 }
