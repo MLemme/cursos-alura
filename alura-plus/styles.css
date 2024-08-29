@@ -5,6 +5,8 @@
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c; 
     
+    --botao-azul-efeito: #3c92fa;
+
     --fonte-principal: 'Inter';
 }
 /*Reset*/
@@ -44,6 +46,10 @@ body{
     text-decoration: none;
     display: block;
     margin-bottom: 1em;
+}
+.container__botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
 /*Classe do segundo botão*/
 .botao__secundario{
@@ -97,4 +103,55 @@ body{
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
+}
+/*Ajustes da ultima sessão*/
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 3rem; /*48px*/
+    color: var(--branco-principal);
+}
+/*Ajustes da lista da ultima sessão*/
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.lista__item{
+    font-size: 2rem; /*32px*/
+    color: var(--branco-principal);
+}
+/*Ajustes do rodapé / footer */
+.rodape{
+    text-align: center;
+    margin: 5rem 3rem;
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1rem;
+    margin: 1.25rem;
+    
+}
+/*estilização dos links*/
+.lista__link a{
+    font-size: 1rem; /*16px*/
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-weight: 400;
+}
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+.lista__link a:active{
+    color: purple;
+}
+.rodape__texto{
+    font-size: 0.875rem; /*14px*/
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    margin: 0 7.5rem 1.25rem;
 }
