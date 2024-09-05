@@ -24,7 +24,7 @@
         <li><a href="https://cursos.alura.com.br/certificate/bbccaa1e-6714-4cf9-9231-ca8c77a2d15f?lang=pt_BR">HTML e CSS: Classes, posicionamento e Flexbox</a></li>
         <li><a href="https://cursos.alura.com.br/certificate/bcbb3ea7-14b6-4705-8eda-50e35ca97ee5?lang=pt_BR">HTML e CSS: praticando HTML/CSS</a></li>
         <li><a href="https://cursos.alura.com.br/certificate/7917fa1e-77e3-4f6c-b855-14ca44496378?lang=pt_BR">HTML e CSS: trabalhando com responsividade e publicação de projetos</a></li>
-        <li><a href="https://cursos.alura.com.br/certificate/e09a2248-af2b-4108-b042-41bb7c5f7662?lang=pt_BR">Lógica de programação: mergulhe em programação com JavaScrip</a></li>
+        <li><a href="https://cursos.alura.com.br/certificate/e09a2248-af2b-4108-b042-41bb7c5f7662?lang=pt_BR">Lógica de programação: mergulhe em programação com JavaScript</a></li>
         <li><a href="https://cursos.alura.com.br/certificate/2da4bf57-a24e-4ac5-87bd-1da203d27dcb?lang=pt_BR">Lógica de programação: explore funções e listas</a></li>
         <li><a href="https://cursos.alura.com.br/certificate/f787404a-16cc-4dbf-a2c8-3de2234ca6c7?lang=pt_BR">Lógica de programação: praticando com desafios</a></li>
       </ul>
