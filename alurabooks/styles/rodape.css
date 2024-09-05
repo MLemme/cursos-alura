@@ -40,4 +40,22 @@ hr{
     .lista-rodapé{
         display: block;
     }
+
+    .lista-rodapé__link:hover {
+        color: var(--laranja);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape{
+        padding: 3em 0;
+    }
+    .lista-rodapé{
+        border-left: 1px solid var(--cinza-claro);
+        padding: 1em;
+    }
+
+    .lista-rodapé__link:hover {
+        color: var(--laranja);
+    }
 }
