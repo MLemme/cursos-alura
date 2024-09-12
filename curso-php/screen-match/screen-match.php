@@ -1,5 +1,5 @@
 <?php
-
+/* movidos para um arquivo só para funções
 function exibeMensagemLancamento(int $ano): void{
 
     if ($ano > 2022) {
@@ -15,6 +15,8 @@ function exibeMensagemLancamento(int $ano): void{
 function incluidoNoPlano(bool $planoPrime , int $anoLancamento): bool{
     return $planoPrime || $anoLancamento < 2020;
 }
+*/
+require __DIR__ . "/funcoes.php"; #dir traz o path absoluto
 
 echo "Bem-vindo(a) ao screen match!\n";
 
@@ -58,3 +60,22 @@ $filme = [
 
 
 echo $filme["ano"];
+
+/*
+#demonstração da função sort que ordena arrays
+var_dump($notas);
+sort($notas);
+var_dump($notas);
+
+#busca pelo menor valor
+echo min($notas);
+#ou
+$menorNota = min($notas);
+var_dump($menorNota);
+
+#demonstração de manipulação de strings
+var_dump($filme['nome']);
+var_dump(strpos($filme['nome'],':')); #busca posição dentro da string
+$posicaoDoisPontos = strpos($filme['nome'],':');
+var_dump(substr($filme['nome'], 0, $posicaoDoisPontos)); #busca substring
+*/
