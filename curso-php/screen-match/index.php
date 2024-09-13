@@ -16,7 +16,9 @@ function incluidoNoPlano(bool $planoPrime , int $anoLancamento): bool{
     return $planoPrime || $anoLancamento < 2020;
 }
 */
-require __DIR__ . "/funcoes.php"; #dir traz o path absoluto
+require __DIR__ . "/src/funcoes.php"; #dir traz o path absoluto
+
+#include é igual ao require no entanto não causa o erro fatal, não interrompe
 
 echo "Bem-vindo(a) ao screen match!\n";
 
@@ -51,12 +53,20 @@ $genero = match ($nomeFilme) {
 
 echo "O gênero do filme é: $genero\n";
 
-$filme = [
+/*$filme = [
     "nome" => "Thor: Ragnarok",
     "ano" => 2021,
     "nota" => 7.8,
     "genero" => "super-herói",
-];
+];*/
+
+$filme = criaFilme(
+    nome: "Thor: Ragnarok",
+    anoLancamento: 2021, 
+    nota: 7.8, 
+    genero: "super-herói"
+);
+#php permite nomear os parametros a partir das variaveis que foram criadas, impossibilitando assim falhas por parâmetros em ordem diferente da estrutura da função
 
 $filmeComoStringJson = json_encode($filme);
 
