@@ -98,3 +98,5 @@ echo json_encode($filme); #transforma uma variavel ou valor do php para o format
 
 var_dump(json_decode('{"nome":"Thor: Ragnarok","ano":2021,"nota":7.8,"genero":"super-her\u00f3i"}',true)); #esta função faz o caminho reverso da primiera e o segundo parametro garante que o retorno seja em formato de array associativo, ou dicionario de dados, a entrada é melhor com '' pois as "" do dado passam a não interfirir
 */
+
+//comando para inicia um servidor local que vai sempre apontar para pasta public dentro do diretório do programa -> php -S localhost:8001 -t public
