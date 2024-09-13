@@ -58,8 +58,12 @@ $filme = [
     "genero" => "super-herói",
 ];
 
+$filmeComoStringJson = json_encode($filme);
 
-echo $filme["ano"];
+#função que encapsula todos os processos com arquivos para escrita, passando local e nome do arquivo e conteudo string
+file_put_contents(__DIR__ . '\filme.json',$filmeComoStringJson);
+
+#echo $filme["ano"];
 
 /*
 #demonstração da função sort que ordena arrays
@@ -78,4 +82,9 @@ var_dump($filme['nome']);
 var_dump(strpos($filme['nome'],':')); #busca posição dentro da string
 $posicaoDoisPontos = strpos($filme['nome'],':');
 var_dump(substr($filme['nome'], 0, $posicaoDoisPontos)); #busca substring
+*/
+/*
+echo json_encode($filme); #transforma uma variavel ou valor do php para o formato json
+
+var_dump(json_decode('{"nome":"Thor: Ragnarok","ano":2021,"nota":7.8,"genero":"super-her\u00f3i"}',true)); #esta função faz o caminho reverso da primiera e o segundo parametro garante que o retorno seja em formato de array associativo, ou dicionario de dados, a entrada é melhor com '' pois as "" do dado passam a não interfirir
 */
