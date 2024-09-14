@@ -17,13 +17,21 @@ function incluidoNoPlano(bool $planoPrime , int $anoLancamento): bool
 {
     return $planoPrime || $anoLancamento < 2020;
 }
-
-function criaFilme(string $nome, int $anoLancamento, float $nota, string $genero): array
+#Alterado de array associativo para uma váriavel da classe Filme
+function criaFilme(string $nome, int $anoLancamento, float $nota, string $genero): Filme #array
 {
-    return [
+    $filme = new Filme(); #instancia a classe
+    $filme->nome = $nome;
+    $filme->anoDeLancamento = $anoLancamento;
+    $filme->genero = $genero;
+    $filme->nota = $nota;
+
+    return $filme;
+
+    /*return [
         "nome" => $nome,
         "ano" => $anoLancamento,
         "nota" => $nota,
         "genero" => $genero,
-    ];
+    ];*/
 }

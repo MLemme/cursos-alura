@@ -16,6 +16,8 @@ function incluidoNoPlano(bool $planoPrime , int $anoLancamento): bool{
     return $planoPrime || $anoLancamento < 2020;
 }
 */
+#inclusão da nova classe
+require __DIR__ . "/src/Modelo/Filme.php";
 require __DIR__ . "/src/funcoes.php"; #dir traz o path absoluto
 
 #include é igual ao require no entanto não causa o erro fatal, não interrompe
@@ -67,13 +69,15 @@ $filme = criaFilme(
     genero: "super-herói"
 );
 #php permite nomear os parametros a partir das variaveis que foram criadas, impossibilitando assim falhas por parâmetros em ordem diferente da estrutura da função
-
-$filmeComoStringJson = json_encode($filme);
-
-#função que encapsula todos os processos com arquivos para escrita, passando local e nome do arquivo e conteudo string
-file_put_contents(__DIR__ . '\filme.json',$filmeComoStringJson);
-
+//Acesso quando retorno é um array associativo
 #echo $filme["ano"];
+//Acesso quando retorno é uma classe
+echo $filme->anoDeLancamento;
+
+//Tratamento de arquivos json
+#filmeComoStringJson = json_encode($filme);
+#função que encapsula todos os processos com arquivos para escrita, passando local e nome do arquivo e conteudo string
+#file_put_contents(__DIR__ . '\filme.json',$filmeComoStringJson);
 
 /*
 #demonstração da função sort que ordena arrays
@@ -100,3 +104,5 @@ var_dump(json_decode('{"nome":"Thor: Ragnarok","ano":2021,"nota":7.8,"genero":"s
 */
 
 //comando para inicia um servidor local que vai sempre apontar para pasta public dentro do diretório do programa -> php -S localhost:8001 -t public
+
+//comando php -a - abre um terminal do php , terminal interativo
