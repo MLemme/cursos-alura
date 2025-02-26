@@ -28,6 +28,35 @@
     margin-right: 0px;
 } */
 
+ /* Menu */
+.menu__container{
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+
+.menu__lista{
+    display: flex;
+    justify-content: space-around;
+    height: 100%
+}
+/* aplicando estilo apenas no li filho do menu__lista */
+.menu__lista li{ 
+    align-self: center;
+}
+
+.menu__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
 
 /* Rodapé */
 .rodape__container{
@@ -42,6 +71,20 @@
     /* Cabeçalho */
     .cabecalho__pesquisar__item{
         display: block;
+    }
+    /* Menu */
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+    
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
     }
     /* Rodapé */
     .rodape__container{
